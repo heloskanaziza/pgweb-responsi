@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.118.2">
-  <title>Album example · Bootstrap v5.3</title>
+  <title>Pur(e)Health</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
@@ -178,19 +178,19 @@
 
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/home.html">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/grafik_tenagakesehatan.html">Grafik</a>
+              <a class="nav-link" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/geoserver/geoserver.html">Peta</a>
+              <a class="nav-link"
+                href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/grafik_tenagakesehatan.html">Grafik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/geoserver/geoserver.html">Peta</a>
             </li>
           </ul>
     
@@ -200,15 +200,15 @@
                     aria-expanded="false">Detail Informasi
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/rumah_sakit.html">Rumah Sakit</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/klinik.html">KPRI / KRIPMD</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/kecantikan.html">Klinik Kecantikan</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/rumah_sakit.html">Rumah Sakit</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/klinik.html">KPRI / KRIPMD</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/kecantikan.html">Klinik Kecantikan</a></li>
                     <li>
                       <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/pmi.php">Unit Tranfusi Darah</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/puskesmas.php">Puskesmas</a></li>
-                    <li><a class="dropdown-item" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/apotek.php">Apotek</a></li>
+                  <li><a class="dropdown-item" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/pmi.php">Unit Tranfusi Darah</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/puskesmas.php">Puskesmas</a></li>
+                    <li><a class="dropdown-item" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/apotek.php">Apotek</a></li>
                 </ul>
             </li>
         </ul>
@@ -232,8 +232,8 @@
   </div>
 
     <div class="py-2 container">
-      <a href="http://localhost/responsi/bootstrap-5.3.2-examples/data/pmi_tambah_data.html" target="_blank"
-            class="btn btn-sm btn-outline-secondary">Add Data</a>
+      <a href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/pmi_tambah_data.html" target="_blank"
+            class="btn btn-sm btn-outline-secondary">Input Data</a>
     </div>
  
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>

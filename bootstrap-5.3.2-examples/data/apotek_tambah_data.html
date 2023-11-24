@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+    <title>Pur(e)Health</title>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .row.py-lg-5 {
+            background-color: #5F9EA0;
+        }
+    </style
+</head>
 
 <body>
     <header data-bs-theme="dark">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand"
-                    href="http://localhost/responsi/bootstrap-5.3.2-examples/data/home.html">Home</a>
+                    href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/home.html">Home</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -15,42 +26,11 @@
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
                             <a class="nav-link"
-                                href="http://localhost/responsi/bootstrap-5.3.2-examples/data/grafik_tenagakesehatan.html">Grafik</a>
+                                href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/grafik_tenagakesehatan.html">Grafik</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link"
-                                href="http://localhost/responsi/bootstrap-5.3.2-examples/data/geoserver/geoserver.html">Peta</a>
-                        </li>
-                    </ul>
-
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">Detail Informasi
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item"
-                                        href="http://localhost/responsi/bootstrap-5.3.2-examples/data/rumah_sakit.html">Rumah
-                                        Sakit</a></li>
-                                <li><a class="dropdown-item"
-                                        href="http://localhost/responsi/bootstrap-5.3.2-examples/data/klinik.html">KPRI
-                                        / KRIPMD</a></li>
-                                <li><a class="dropdown-item"
-                                        href="http://localhost/responsi/bootstrap-5.3.2-examples/data/kecantikan.html">Klinik
-                                        Kecantikan</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item"
-                                        href="http://localhost/responsi/bootstrap-5.3.2-examples/data/pmi.php">Unit
-                                        Tranfusi Darah</a></li>
-                                <li><a class="dropdown-item"
-                                        href="http://localhost/responsi/bootstrap-5.3.2-examples/data/puskesmas.php">Puskesmas</a>
-                                </li>
-                                <li><a class="dropdown-item"
-                                        href="http://localhost/responsi/bootstrap-5.3.2-examples/data/apotek.php">Apotek</a>
-                                </li>
-                            </ul>
+                                href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/geoserver/geoserver.html">Peta</a>
                         </li>
                     </ul>
                 </div>
@@ -62,16 +42,15 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Detail Informasi KPRI / KRIPMMD Kabupaten Purworejo</h1>
+                    <h1 class="fw-light bold-text">Form Input Data Informasi Apotek Kabupaten Purworejo</h1>
                 </div>
             </div>
         </section>
 
-        <h2>Form Input</h2>
+        <div class="album py-1">
+            <div class="container" </div>
 
-    <h2>Form Input</h2>
-
-    <form action="apotek_tambah_data.php" onsubmit="return validateForm()" method="post">
+                <form action="apotek_tambah_data.php" onsubmit="return validateForm()" method="post">
         <label for="nama">Nama:</label><br>
         <input type="text" id="nama" name="nama" value=""><br>
 

@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.118.2">
-  <title>SINKAPU</title>
+  <title>Pur(e)Health</title>
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="home.css" rel="stylesheet">
 
@@ -170,26 +170,57 @@
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/grafik_tenagakesehatan.html">Grafik</a>
+                <a class="nav-link" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/home.html">Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/grafik_tenagakesehatan.html">Grafik</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/geoserver/geoserver.html">Peta</a>
+              <a class="nav-link" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/geoserver/geoserver.html">Peta</a>
             </li>
           </ul>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link" href="#">Information</a>
-          </nav>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" data-bs-toggle="modal"
+                  data-bs-target="#infoModal"><i class="fa-solid fa-circle-info"></i>Information</a>
+          </li>
+          </ul>
         </div>
       </div>
     </nav>
+
+    <div class="modal fade text-white" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5"><i class="fa-solid fa-circle-info"></i>Information</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>Website disusun oleh :</p>
+                  <p>Nama : Helos Kana Aziza</p>
+                  <p>NIM  : 22/498378/SV/21206</p>
+                  <p>Sumber Data :</p>
+                  <p>1. Badan Pusat Statistik Kabupaten Purworejo 
+                    <a href="https://purworejokab.bps.go.id/subject/30/kesehatan.html"
+                          target="_blank">https://purworejokab.bps.go.id/subject/30/kesehatan.html</a></p>
+                          <p>2. Fasilitas Kesehatan - Pemkab Purworejo 
+                            <a href="https://purworejokab.go.id/web/fasilitas-kesehatan.html"
+                                  target="_blank">https://purworejokab.go.id/web/fasilitas-kesehatan.html</a></p>
+                                  <p>3. Shapefile Batas Administrasi Kabupaten Purworejo 
+                                    <a href="https://tanahair.indonesia.go.id/portal-web"
+                                          target="_blank">https://tanahair.indonesia.go.id/portal-web</a></p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+    </div>
+  
   </header>
 
   <main>
@@ -229,7 +260,7 @@
 
           <h2 class="fw-normal">Rumah Sakit</h2>
           <p>Data fasilitas kesehatan berupa rumah sakit yang berada di Kabupaten Purworejo</p>
-          <p><a class="btn btn-secondary" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/rumah_sakit.html">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/rumah_sakit.html">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -241,7 +272,7 @@
           </svg>
           <h2 class="fw-normal">KPRI / KRIPMD</h2>
           <p>Data fasilitas kesehatan berupa Klinik Pratama Rawat Inap (KPRI) atau Klinik Rawat Inap Pelayanan Medik Dasar (KRIPMD) yang berada di Kabupaten Purworejo</p>
-          <p><a class="btn btn-secondary" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/klinik.html">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/klinik.html">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -253,7 +284,7 @@
           </svg>
           <h2 class="fw-normal">Klinik Kecantikan</h2>
           <p>Data fasilitas kesehatan berupa klinik kecantikan yang berada di Kabupaten Purworejo</p>
-          <p><a class="btn btn-secondary" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/kecantikan.html">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/kecantikan.html">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
       </div><!-- /.row -->
@@ -268,7 +299,7 @@
           </svg>
           <h2 class="fw-normal">Unit Tranfusi Darah</h2>
           <p>Data fasilitas kesehatan berupa unit transfusi darah yang berada di Kabupaten Purworejo</p>
-          <p><a class="btn btn-secondary" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/pmi.php">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/pmi.php">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -280,7 +311,7 @@
           </svg>
           <h2 class="fw-normal">Puskesmas</h2>
           <p>Data fasilitas kesehatan berupa puskesmas yang berada di Kabupaten Purworejo</p>
-          <p><a class="btn btn-secondary" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/puskesmas.php">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/puskesmas.php">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
@@ -292,7 +323,7 @@
           </svg>
           <h2 class="fw-normal">Apotek</h2>
           <p>Data fasilitas kesehatan berupa apotek yang berada di Kabupaten Purworejo</p>
-          <p><a class="btn btn-secondary" href="http://localhost/responsi/bootstrap-5.3.2-examples/data/apotek.php">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="http://localhost/pgweb-responsi/bootstrap-5.3.2-examples/data/apotek.php">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
       </div><!-- /.row -->
