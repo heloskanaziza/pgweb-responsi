@@ -35,8 +35,3 @@
   <li>Grafik</li> <img src = "data/img/grafik.png" width = "500">
   <li>Data dan Input Data</li> <img src = "data/img/input.png" width = "500"> <img src = "data/img/database.png" width = "500">
 </ol>
-
-<h4>Link Tampilan</h4>
-<ol>
-  Link : https://github.com/heloskanaziza/pgweb-responsi.git
-</ol>
