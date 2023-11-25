@@ -29,9 +29,9 @@
 
 <h4>Tangkapan Layar Komponen Penting</h4>
 <ol>
-  <li>Landing Page</li> <img src = "data/img_readme/landing_page.png" width = "500">
-  <li>Cover</li><img src = "data/img_readme/cover.png" width = "500">
-  <li>Peta</li> <img src = "data/img_readme/peta.png" width = "500">
-  <li>Grafik</li> <img src = "data/img_readme/grafik.png" width = "500">
-  <li>Data dan Input Data</li> <img src = "data/img_readme/input.png" width = "500"> <img src = "data/img_readme/database.png" width = "500">
+  <li>Landing Page</li> <img src = "assets/img_readme/landing_page.png" width = "500">
+  <li>Cover</li><img src = "assets/img_readme/cover.png" width = "500">
+  <li>Peta</li> <img src = "assets/img_readme/peta.png" width = "500">
+  <li>Grafik</li> <img src = "assets/img_readme/grafik.png" width = "500">
+  <li>Data dan Input Data</li> <img src = "assets/img_readme/input.png" width = "500"> <img src = "assets/img_readme/database.png" width = "500">
 </ol>
